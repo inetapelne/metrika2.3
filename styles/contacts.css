@@ -1,0 +1,89 @@
+.contacts__block {
+    margin-top: 25px;
+    display: flex;
+}
+
+.contacts__phone, 
+.contacts__email {
+    width: 50%;
+}
+
+.contacts__phone:before, 
+.contacts__email:before {
+    content: "";
+    display: block;
+    margin-bottom: 26px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contacts__phone:before {
+    background-image: url(../resources/iphone.png)
+}
+.contacts__email:before {
+    background-image: url(../resources/envelope.png)
+}
+
+.contacts__phone {
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;  
+    text-decoration: none; 
+}
+.contacts__email {
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none; 
+}
+.contacts__email:hover, .contacts__phone:hover {
+    text-decoration: none;  
+    border-bottom: 2px solid;
+    white-space: nowrap;
+    opacity: 0.5;
+}
+
+
+@media (max-width: 1199px) {
+    .contacts__phone,
+    .contacts__email {
+      font-size: 45px;
+    }
+  
+  }
+  
+  @media (max-width: 767px) {
+    /* .title-contacts {
+      margin-bottom: 20px;
+    }
+  
+    .contacts-wrapper {
+      flex-direction: column;
+      gap: 20px;
+    } */
+  
+    .contacts__email:before,
+    .contacts__phone::before {
+      margin-bottom: 20px;
+      width: 18px;
+      height: 18px;
+    }
+  
+    .contacts__phone {
+      font-size: 35px;
+      line-height: 46px;
+    }
+  
+    .contacts__email {
+      font-size: 35px;
+      line-height: 46px;
+      border-bottom: none;
+      opacity: 1;
+    }
+  }
+  

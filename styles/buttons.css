@@ -1,0 +1,41 @@
+
+.full-width-button {
+    display: block;
+    height: 153px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ad1818;
+    font-size: 30px;
+    line-height: 153px;
+    text-align: center;
+    text-decoration: none;
+    color: #ad1818;
+    letter-spacing: -0.03em;
+}
+.full-width-button:hover {
+    color: #ffffff;
+    background-color: #ad1818;
+}
+.full-width-button_inverted {
+    background-color: #ad1818;
+    color: #ffffff;
+}
+.full-width-button_inverted:hover {
+    background-color: #ffffff;
+    color: #ad1818;
+
+}
+
+@media (max-width: 1199px) {
+    
+  } 
+  
+  
+@media (max-width: 767px) {
+    .full-width-button {
+        font-size: 22px;
+        height: 100px;
+        line-height: 100px;
+        margin-top:60px
+      }
+}

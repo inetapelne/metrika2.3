@@ -1,0 +1,37 @@
+.nav-section {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 33px 125px 70px 125px;
+}
+.nav-container {
+    width: 1150px;
+    height: 26px;
+    margin: 0 auto;
+}
+.logo-link {
+    display: inline-block;
+}
+.nav {
+    display: inline;
+}
+.logo {
+    display: block;
+    Width: 126.89px;
+    Height: 21.42px;
+}
+.nav__link {
+    font-size: 18px;
+    margin-left: 57px;
+    line-height: 25px;
+    color: #121212;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav__link:first-child{
+    margin-left: 554px;
+} 
+.nav__link:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+}

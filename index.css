@@ -1,0 +1,89 @@
+@import "styles/header.css";
+@import "styles/intro.css";
+@import "styles/projects.css";
+@import "styles/about-us.css";
+@import "styles/services.css";
+@import "styles/reviews.css";
+@import "styles/gallery.css";
+@import "styles/contacts.css";
+@import "styles/footer.css";
+@import "styles/buttons.css";
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #ffffff;
+}
+h1, h2, h3, p, a {
+    letter-spacing: -0.03em;
+    font-weight: 400;
+}
+
+h1 {
+    margin-bottom: 30px;
+    width: 956px;
+    height: 120px;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+}
+h2 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+} 
+.section-white, .section-white-reviews {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 150px 125px;
+}
+
+@media (max-width: 1199px) {
+    .section-white, .section-white-reviews {
+        width: 100%;
+        padding-left: 17px;
+        padding-right: 15px;
+        padding-bottom: 100px;
+    }
+    .section-white-reviews {
+        padding-top: 117px;
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+        width: 802px;
+    }
+    .container-chair, .about-us {
+        margin-bottom: 120px;
+    }
+}
+
+@media (max-width: 800px) {
+    .section-white, .section-white-reviews {
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 12px;
+        padding-bottom: 144px;
+    }
+    .section-white-reviews {
+        padding-top: 80px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 31.62px;
+        width: 348px;
+        height: 95px;
+        margin-bottom: 25px;
+      }
+    h2 {
+        font-size: 14px;
+        line-height: 19.12px;
+        margin-bottom: 20px;
+    }
+    .container-chair, .about-us {
+        margin-bottom: 80px;
+    }
+}
+

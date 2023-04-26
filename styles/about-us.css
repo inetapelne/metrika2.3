@@ -1,0 +1,48 @@
+.about-us__text {
+    font-size: 45px;
+    width: 1048px;
+    height: 366px;
+    line-height: 61.47px;
+    margin-bottom: 30px;
+    margin-left: 3px;
+}
+a.btn {
+    display: block;
+    width: 255px;
+    height: 67px;
+    font-size: 20px;
+    line-height: 27.32px;
+    padding: 20px 40px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #ad1818;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+    .about-us__text {
+        width: 690px;
+        font-size: 35px;
+        line-height: 48px;
+        height: 336px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-us__text {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 22px;
+        line-height: 30px;
+        height: 300px;
+    }
+    a.btn {
+        padding: 14.5px 27px;
+        font-size: 16px;
+        line-height: 22px;
+        width: 194px;
+        height: 51px;
+    }
+}
